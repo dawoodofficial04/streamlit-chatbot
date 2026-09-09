@@ -9,7 +9,7 @@ load_dotenv()
 api_key = os.getenv("GROQ_API_KEY")
 
 # Page
-st.title("Groq Chatbot")
+st.title("DAARMO Chatbot")
 st.caption("Ask anything below!")
 
 st.divider()
@@ -34,7 +34,10 @@ if submitted:
     with st.spinner("Thinking..."):
         response = llm.invoke(
             [
-                SystemMessage(content="You are a helpful assistant."),
+                SystemMessage(content="""
+                Your name is DAARMO.
+                You are created by Dawood Hussain.
+                """),
                 HumanMessage(content=user_input)
             ]
         )
