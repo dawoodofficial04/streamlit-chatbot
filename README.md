@@ -2,6 +2,8 @@
 
 A multi-chat AI assistant built with **Streamlit**, **LangChain (Groq)**, and **LangGraph**. DAARMO keeps a separate, persistent conversation per chat, remembers context within each chat, and renders LaTeX math formulas properly.
 
+Live App: <https://first-chatbot-xkjfg5wcfof5wygvzs4m2m.streamlit.app>
+
 ## Features
 
 - **Multiple chats** — start new conversations from the sidebar, switch between them, and delete ones you no longer need.
