@@ -33,6 +33,11 @@ Live App: <https://first-chatbot-xkjfg5wcfof5wygvzs4m2m.streamlit.app>
 
 1. **Clone the repo and enter the project folder.**
 
+    ```bash
+   git clone <https://github.com/dawoodofficial04/streamlit-chatbot.git>
+   cd <streamlit-chatbot>
+      ```
+
 2. **Create a virtual environment (recommended) and install dependencies:**
 
    ```bash
